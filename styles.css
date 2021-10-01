@@ -1,0 +1,20 @@
+.highscores {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.goback {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.highscoreslist {
+    background-color: blue;
+}
+
+/* .highscorepage {
+    display: flex;
+} */
+
