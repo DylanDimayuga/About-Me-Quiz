@@ -14,7 +14,45 @@
     background-color: blue;
 }
 
-/* .highscorepage {
-    display: flex;
-} */
+.timer {
+    position: absolute;
+    left: 91%;
+    top: 0px;
+}
 
+.aboutmetitle {
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.startquiz {
+    position: relative;
+    left: 47%;
+}
+
+.viewscores {
+    position: absolute;
+    top: 0px;
+    right: 88%;
+    margin: 16px;
+}
+
+.quizintroduction {
+    text-align: center;
+    padding: 0px 346px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    position: relative;
+    align-items: flex-start;
+    width: 130px;
+    padding: 10px;
+    margin: 5px;
+    left: 574px;
+}
