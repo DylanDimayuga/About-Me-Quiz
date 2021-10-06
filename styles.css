@@ -12,6 +12,7 @@
 
 .highscoreslist {
     background-color: blue;
+    color: white;
 }
 
 .timer {
@@ -55,4 +56,12 @@
     padding: 10px;
     margin: 5px;
     left: 574px;
+}
+
+.initials {
+
+}
+
+.submit {
+
 }

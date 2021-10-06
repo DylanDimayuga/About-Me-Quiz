@@ -10,17 +10,21 @@
 <body>
     <nav>
         <h1 class = "aboutmetitle">About Me Quiz</h1>
-        <a href="highscores.html" class = "viewscores">View High Scores</a>
+        <a href="javascript:highScorePage()" class = "viewscores">View High Scores</a>
         <p class = "timer">Time Left: 0</p>
     </nav>
     <div class="parent">
+        <ol class="highscoreslist">
+        </ol>
         <p class = "quizintroduction">This is a 5 question quiz that will display your knowledge about me, Dylan Dimayuga. 
         The timer will start at 60 seconds after you click start quiz. 
         The scoring is not based on how many of the answers you get correct, but how fast you are able to get through the quiz. 
         For every incorrect answer you will be deducted 5 points from your total score and if all answers are incorrect than you will be given a score of 0.
         </p>
     </div>
-    <button class = "startquiz">Start Quiz</button>
+    <div class="parenttwo">
+        <button class = "startquiz">Start Quiz</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
